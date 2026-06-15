@@ -4,29 +4,12 @@ App description: [Write a one or two sentences describing what your app does and
 
 ## Style and Theme
 
-Describe the look and feel of your app. Keep it simple — this is a prototype, not a final design.
+[Describe the look and feel of your app.] 
 
-### Colors
+Overall mood:
+Examples: fun and playful, calm and professional, bold and energetic, etc.
 
-Write 2-4 colors you want to use and where they go. Examples:
-
-- Primary color (used for buttons, headings, navigation highlights)
-- Background color (used for page or card backgrounds)
-- Accent color (used sparingly for special badges or borders)
-
-### Font
-
-- Pick one style: modern/serif/playful/clean
-- Note if you want larger headings or more compact text
-
-### Layout
-
-Describe the overall mood:
-
-- Spacious and airy, or compact and dense?
-- Rounded corners or sharp edges?
-- Light theme, dark theme, or colorful?
-- Any changes to the card or detail page arrangement?
+Use the *style-guide.html* for details on styling -- fonts, colors, and layout.
 
 ## User Scenarios
 
