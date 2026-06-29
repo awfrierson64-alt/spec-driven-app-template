@@ -1,22 +1,21 @@
-# Specification: [Your App Idea Name]
+# Specification: Animetion Beach
 
-App description: [Write a one or two sentences describing what your app does and who it’s for.]
+App description: A calm website that shares animation facts and short ideas for people who want to learn about animation in a relaxing way.
 
 ## Style and Theme
 
-[Describe the look and feel of your app.] 
+The look of my website will feel like a warm beach with soft blue water and gentle colors. The design should feel chill, calm, and easy to read.
 
 Overall mood:
-Examples: fun and playful, calm and professional, bold and energetic, etc.
+Calm and chill with a light energy that feels like a peaceful beach day.
 
-Use the *style-guide.html* for details on styling -- fonts, colors, and layout.
+Use the *style-guide.html* for details on styling -- fonts, colors, and layout. The site should use warm beach tones, ocean blue, and soft backgrounds.
 
 ## User Scenarios
 
 ### Story 1 (most important)
 
-[Write 1-2 sentences. Who is using the app, what do they want to do, and what do they see when it works? Write it like you are describing it to a friend.]
-
+A person who wants to learn animation facts visits the site and sees a calm home page. They click to the facts collection and open one card to read a simple detail page with a gentle tone.
 ---
 
 ## Requirements

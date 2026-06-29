@@ -1,15 +1,88 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #d8f1ff 0%, #fbf2de 55%, #ffffff 100%);
+  color: #1f3a5d;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-bottom: 1px solid rgba(76, 129, 174, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  color: #1f3a5d;
+  font-weight: 700;
+}
+
+.navbar-brand i {
+  color: #4b8bbf;
+}
+
+.container {
+  max-width: 1120px;
+}
+
 .collection-card-image {
   height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
 }
 
 .collection-description {
   display: -webkit-box;
-  line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
 .item-detail-image {
-  max-height: 320px;
+  max-height: 360px;
+  object-fit: cover;
 }
+
+.card {
+  border-radius: 18px;
+  border: 1px solid rgba(75, 139, 191, 0.15);
+}
+
+.card-body {
+  min-height: 220px;
+}
+
+.btn-primary {
+  background-color: #4b8bbf;
+  border-color: #4b8bbf;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #3a76a6;
+  border-color: #3a76a6;
+}
+
+.btn-outline-secondary {
+  color: #1f3a5d;
+  border-color: rgba(75, 139, 191, 0.45);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: rgba(75, 139, 191, 0.12);
+}
+
+.badge.text-bg-primary {
+  background-color: #4b8bbf;
+}
+
+a.btn-link {
+  color: #4b8bbf;
+}
+
+.alert {
+  border-radius: 14px;
+}
+

@@ -26,7 +26,7 @@ export default {
       </div>
 
       <div v-else-if="!selectedItem" class="alert alert-warning" role="alert">
-        Item not found.
+        Fact not found.
       </div>
 
       <article v-else class="card shadow-sm border-0 overflow-hidden">
@@ -48,8 +48,8 @@ export default {
           </div>
 
           <p class="lead mb-3">{{ selectedItem.description || 'No description available.' }}</p>
-          <p class="mb-0"><strong>Location:</strong> {{ selectedItem.location || 'N/A' }}</p>
-          <p class="text-muted mt-2 mb-0"><strong>Item ID:</strong> {{ selectedItem.id }}</p>
+          <p class="mb-0"><strong>Source:</strong> {{ selectedItem.location || 'N/A' }}</p>
+          <p class="text-muted mt-2 mb-0"><strong>Fact ID:</strong> {{ selectedItem.id }}</p>
         </div>
       </article>
     </section>
