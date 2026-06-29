@@ -54,7 +54,7 @@ const app = Vue.createApp({
       return `./${trimmedValue.replace(/^\.\//, '')}`;
     };
 
-    fetch('./items-template.csv')
+    fetch('./items.csv')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Could not load CSV data file.');
@@ -74,9 +74,7 @@ const app = Vue.createApp({
                 id: String(row.id || '').trim(),
                 name: String(row.name || '').trim(),
                 description: String(row.description || '').trim(),
-                category: String(row.category || '').trim(),
                 imageUrl: normalizeImageUrl(row.image_url || row.imageUrl || row.image || ''),
-                location: String(row.location || '').trim(),
               }));
               itemsStore.error = '';
             }
